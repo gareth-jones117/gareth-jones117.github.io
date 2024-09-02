@@ -1,0 +1,70 @@
+/*phone*/
+@media only screen and(min-width:440px ) {
+  .container {
+    min-width: 440px;
+  }
+}
+/* widescreen dispays */
+@media only screen and(min-width:920px ) {
+  .container {
+    min-width: 920px;
+  }
+}
+/*tablets*/
+@media only screen and (max-width: 919px) {
+  .container {
+    min-width: 919px;
+  }
+}
+#body {
+  background-color: black;
+}
+
+.welcome {
+  text-align: center;
+  position: relative;
+  font-size: 100px;
+  font-family: 'Pixelify Sans', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  background-color: black;
+  color: white;
+  margin-right: 30px;
+  margin-bottom: 0px;
+  transform: translateY(250px);
+}
+.welcome2 {
+  text-align: center;
+  position: relative;
+  font-size: 80px;
+  font-family: 'Pixelify Sans', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  background-color: black;
+  color: white;
+  margin: 30px;
+  transform: translateY(200px);
+}
+
+.navbar {
+  padding: 0px;
+}
+.navbar ul {
+  list-style-type: none;
+  font-size: 30px;
+}
+.navbar a {
+  color: white;
+  font-family: 'Pixelify Sans', sans-serif;
+  font-optical-sizing: auto;
+  display: block;
+  text-align: center;
+  margin: 10px;
+  padding: 5px;
+  transform: translateY(200px);
+}
+.navbar a:hover {
+  color: greenyellow;
+}
