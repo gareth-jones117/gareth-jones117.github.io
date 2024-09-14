@@ -68,3 +68,88 @@
 .navbar a:hover {
   color: greenyellow;
 }
+
+.navbardiv {
+  width: 100%;
+  height: 40px;
+  background-color: black;
+  padding: 10px;
+  margin: 0px;
+}
+.buttonNav {
+  border-radius: 10px;
+  float: right;
+  padding: 10px;
+  margin: 10px;
+  color: greenyellow;
+  background-color: grey;
+  font-family: 'Pixelify Sans', sans-serif;
+  font-optical-sizing: auto;
+  box-shadow: 2px 5px grey;
+  font-size: 25px;
+  border-color: grey;
+  border-style: solid;
+}
+.Header {
+  font-family: 'Pixelify Sans', sans-serif;
+  font-optical-sizing: auto;
+  width: 100%;
+  position: relative;
+  color: whitesmoke;
+  text-decoration: underline;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  margin: 0px;
+}
+.green {
+  color: green;
+}
+.starry {
+  color: blue;
+  font-style: italic;
+}
+.sect {
+  font-family: 'Pixelify Sans', sans-serif;
+  font-optical-sizing: auto;
+  color: whitesmoke;
+  font-size: larger;
+}
+
+.divImage1 {
+  display: block;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+.divImage2 {
+  display: block;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+.divImage3 {
+  display: block;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+.divImage4 {
+  display: block;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+.subHeader {
+  font-family: 'Pixelify Sans', sans-serif;
+  font-optical-sizing: auto;
+  color: whitesmoke;
+  text-decoration: underline;
+  font-size: x-large;
+}
+
+.buttonNav:hover {
+  background-color: darkorchid;
+  box-shadow: 2px 5px darkorchid;
+  border-color: darkorchid;
+  border-style: solid;
+  color: deepskyblue;
+}
