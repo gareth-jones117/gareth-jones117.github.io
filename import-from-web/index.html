@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Motion One example</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <style>
+      body {
+        background: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 90vh;
+      }
+
+      #box {
+        width: 100px;
+        height: 100px;
+        border-radius: 10px;
+        background-color: pink;
+      }
+    </style>
+    <div id="box"></div>
+  </body>
+
+  <script type="module">
+    import { animate } from 'https://cdn.skypack.dev/motion'
+
+    animate('#box', { x: 100, rotate: 45 }, { duration: 0.5 })
+  </script>
+</html>
